@@ -54,8 +54,8 @@ export default function Die(props) {
                     top: `${top}%`,
                     left: `${left}%`,
                     backgroundColor: 'black',
-                    width: '13px',
-                    height: '13px',
+                    width: '11px',
+                    height: '11px',
                     borderRadius: '50%',
                     transform: `translateX(-${left}%) translateY(-${top}%)`
 
