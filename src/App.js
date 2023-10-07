@@ -56,7 +56,6 @@ export default function App() {
 
     function rollDice() {
         setCountRolls(prevCout => prevCout + 1);
-        console.log(countRolls);
         setTimerOn(true);
         if (!tenzies) {
             setDice(oldDice => oldDice.map(die => {
@@ -96,7 +95,7 @@ export default function App() {
         <>
             {tenzies && <Confetti />}
             <div id="flex-Container">
-                <img className='logo' src={logo}></img>
+                <img alt="logo" className='logo' src={logo}/>
                 <div id="content-container">
                     <div id="container">
                         <main>
